@@ -4,3 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+}
+
+#idoneo {
+    width: 200px;
+    height: 100px;
+    margin-top: 30%;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
