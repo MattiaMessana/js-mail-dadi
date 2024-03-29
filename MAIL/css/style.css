@@ -5,20 +5,35 @@
     box-sizing: border-box;
 }
 
-body {
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkorange;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darkorange;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#mail {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#enter {
+    border-radius: 5px;
+    padding: 5px;
 }
 
 #idoneo {
-    width: 200px;
-    height: 100px;
-    margin-top: 30%;
-    background-color: darkgreen;
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
