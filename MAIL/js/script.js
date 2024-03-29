@@ -16,6 +16,7 @@ const btn = document.getElementById("enter");
 
 // Chiedi all'utente la sua email
 const userMail = document.getElementById("mail");
+console.log(userMail.value);
 
 btn.addEventListener("click", function () {
     // Flag per tenere traccia dello stato di autorizzazione
