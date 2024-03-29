@@ -37,9 +37,13 @@ rollDiceButton.addEventListener('click', function() {
 //stampiamo in pagina il risultato 
   if (userNumber > computerNumber) {
     resultDisplay.innerHTML = "HAI VINTO!";
+    console.log("hai vinto");
   } else if (userNumber < computerNumber) {
     resultDisplay.innerHTML = " :( RITENTA SARAI PIU' FORTUNATO";
+    console.log("ritenta");
   } else {
     resultDisplay.innerHTML = "PAREGGIO";
+    console.log("pareggio");
   }
 });
+
